@@ -15,25 +15,9 @@ const ShopGridStandard = lazy(() => import("./pages/shop/ShopGridStandard"));
 
 // product pages
 const Product = lazy(() => import("./pages/shop-product/Product"));
-const ProductTabLeft = lazy(() =>
-  import("./pages/shop-product/ProductTabLeft")
-);
-const ProductTabRight = lazy(() =>
-  import("./pages/shop-product/ProductTabRight")
-);
-const ProductSticky = lazy(() => import("./pages/shop-product/ProductSticky"));
-const ProductSlider = lazy(() => import("./pages/shop-product/ProductSlider"));
-const ProductFixedImage = lazy(() =>
-  import("./pages/shop-product/ProductFixedImage")
-);
 
 // blog pages
-const BlogStandard = lazy(() => import("./pages/blog/BlogStandard"));
 const BlogNoSidebar = lazy(() => import("./pages/blog/BlogNoSidebar"));
-const BlogRightSidebar = lazy(() => import("./pages/blog/BlogRightSidebar"));
-const BlogDetailsStandard = lazy(() =>
-  import("./pages/blog/BlogDetailsStandard")
-);
 
 // other pages
 const About = lazy(() => import("./pages/other/About"));
@@ -97,43 +81,11 @@ const App = (props) => {
                     <Product {...routeProps} key={routeProps.match.params.id} />
                   )}
                 />
-                <Route
-                  path={process.env.PUBLIC_URL + "/product-tab-left/:id"}
-                  component={ProductTabLeft}
-                />
-                <Route
-                  path={process.env.PUBLIC_URL + "/product-tab-right/:id"}
-                  component={ProductTabRight}
-                />
-                <Route
-                  path={process.env.PUBLIC_URL + "/product-sticky/:id"}
-                  component={ProductSticky}
-                />
-                <Route
-                  path={process.env.PUBLIC_URL + "/product-slider/:id"}
-                  component={ProductSlider}
-                />
-                <Route
-                  path={process.env.PUBLIC_URL + "/product-fixed-image/:id"}
-                  component={ProductFixedImage}
-                />
 
                 {/* Blog pages */}
                 <Route
-                  path={process.env.PUBLIC_URL + "/blog-standard"}
-                  component={BlogStandard}
-                />
-                <Route
                   path={process.env.PUBLIC_URL + "/blog-no-sidebar"}
                   component={BlogNoSidebar}
-                />
-                <Route
-                  path={process.env.PUBLIC_URL + "/blog-right-sidebar"}
-                  component={BlogRightSidebar}
-                />
-                <Route
-                  path={process.env.PUBLIC_URL + "/blog-details-standard"}
-                  component={BlogDetailsStandard}
                 />
 
                 {/* Other pages */}
