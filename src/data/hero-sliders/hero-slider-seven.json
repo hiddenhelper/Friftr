@@ -1,15 +1,50 @@
 [
   {
     "id": 1,
-    "title": "New Arrivals",
-    "subtitle": "Book Shop <br /> Find Your Book",
+    "title": "YOU'RE PAYING WAY<br />TOO MUCH",
+    "subtitle": "Lets fix that...<br />Forever",
     "image": "/assets/img/slider/slider-11.jpg",
     "url": "/shop-grid-standard"
   },
   {
     "id": 2,
-    "title": "New Arrivals",
-    "subtitle": "Book Shop <br /> Find Your Book",
+    "title": "WHAT IS FRIFTR",
+    "subtitle": "Friftr ( pronounced 'thrift-er' with an 'F' ) is a platform designed to help people find and share better AND cheaper alternatives to overpriced products.",
+    "image": "/assets/img/slider/slider-11-2.jpg",
+    "url": "/shop-grid-standard"
+  },
+  {
+    "id": 3,
+    "title": "SEARCH FOR DEALS",
+    "subtitle": "Search for the best budget ____ or alternatives to whatever costs too much!",
+    "image": "/assets/img/slider/slider-11-2.jpg",
+    "url": "/shop-grid-standard"
+  },
+  {
+    "id": 4,
+    "title": "ADD YOUR OWN DEALS",
+    "subtitle": "Everyone is an expert at saving money on something. It could be your hobby, a project you learned from the hard way, or it could be something you can't stop telling everyone you meet! This is the best place to work together and spread the word on a good deal!",
+    "image": "/assets/img/slider/slider-11-2.jpg",
+    "url": "/shop-grid-standard"
+  },
+  {
+    "id": 5,
+    "title": "VOTE FOR THE BEST",
+    "subtitle": "",
+    "image": "/assets/img/slider/slider-11-2.jpg",
+    "url": "/shop-grid-standard"
+  },
+  {
+    "id": 6,
+    "title": "QUALITY CONTROL",
+    "subtitle": "We have built in tools to make sure only the best comes through. We'll take care of any garbage.",
+    "image": "/assets/img/slider/slider-11-2.jpg",
+    "url": "/shop-grid-standard"
+  },
+  {
+    "id": 7,
+    "title": "POWERED BY AMAZON",
+    "subtitle": "Friftr runs on the Amazon affiliate program. Every item on here links directly to Amazon as a referral link, providing us a small percentage of any sales purchased from Amazon by our referral. This business model lets us self-sustain this platform without the influence of paid promoters, sponsors, or other outside influences. We don't think that's cool, we think saving money is.",
     "image": "/assets/img/slider/slider-11-2.jpg",
     "url": "/shop-grid-standard"
   }

@@ -28,6 +28,7 @@ const HeroSliderSeven = () => {
       </button>
     )
   };
+
   return (
     <div className="slider-area res-mrg-md-mb">
       <div className="slider-active-3">
