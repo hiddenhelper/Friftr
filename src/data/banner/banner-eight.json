@@ -2,17 +2,17 @@
   {
     "id": 1,
     "image": "/assets/img/banner/banner-38.png",
-    "title": "Book",
+    "title": "Fitness Tracker",
     "subtitle": "Starting at",
-    "price": "$99.00",
+    "price": "$140.62",
     "link": "/shop-grid-standard"
   },
   {
     "id": 2,
     "image": "/assets/img/banner/banner-39.png",
-    "title": "Book",
+    "title": "Fitness Tracker",
     "subtitle": "Starting at",
-    "price": "$0.00",
+    "price": "$140.62",
     "link": "/shop-grid-standard"
   }
 ]
